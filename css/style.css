@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.body {
+  height: 100vh;
+  width: 100vh;
+  background-color: #cac2c2;
+}
+
+.instagram-wrapper {
+  height: 75vh;
+  margin: 32px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 935px;
+}
+
+.img-bg-left img {
+  width: 460px;
+}
+
+.box-login {
+  border-radius: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.area-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(197, 195, 195, 0.911);
+  padding: 50px 40px;
+  background-color: #fff;
+}
+
+.area-login img{
+    margin-bottom: 30px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.login input {
+  border: 1px solid #dbd6d6;
+  color: #8e8e8e;
+}
+
+.login input:focus {
+  outline: 0;
+  border: 1px solid #c5bcbc;
+  box-shadow: rgba(139, 134, 134, 0.5);
+}
+
+.email {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+}
+
+.senha {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+}
+
+.enviar {
+  background-color: rgba(24, 158, 199, 0.4);
+  width: 300px;
+  height: 30px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.enviar:hover {
+  background-color: rgb(48, 110, 151);
+}
+
+.divisor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  text-transform: uppercase;
+  color: #8e8e8e;
+  font-weight: 600;
+}
+
+.login-facebook {
+  gap: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.login-facebook h4 a {
+  text-decoration: none;
+  color: #385185;
+  line-height: 5px;
+  font-size: 0.875rem;
+}
+
+.login-facebook p a {
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 12px;
+  text-align: center;
+  color: #385185;
+}
+
+.criar-conta {
+  padding: 20px;
+  border: 1px solid rgba(197, 195, 195, 0.911);
+  border-radius: 1px;
+  margin: 20px 0;
+  width: 382px;
+  text-align: center;
+  background-color: #fff;
+}
+
+.criar-conta a {
+  text-decoration: none;
+  color: #385185;
+  font-weight: 600;
+}
+
+.get-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.download-apps {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-family: sans-serif;
+  gap: 10px;
+}
+
+.download-apps img {
+  width: 150px;
+  height: 50px;
+}
+
+.links-relacionados {
+  margin: 32px auto 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px;
+}
+
+.links-relacionados .links{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.links a{
+    text-decoration: none;
+    color: #8e8e8e;
+    font-size: 0.8rem;
+}
+
+.links-relacionados p{
+    margin: 20px;
+    color: #8e8e8e;
+    font-size: 0.875rem;
+}
